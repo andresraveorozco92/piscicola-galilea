@@ -1,0 +1,65 @@
+.page {
+  min-height: 100vh;
+}
+
+.header {
+  padding: 6rem 1.5rem 4rem;
+  background: linear-gradient(180deg, rgba(0, 184, 148, 0.1) 0%, var(--color-bg) 100%);
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: var(--color-text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 992px) {
+  .productGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
+
+.futureInfo {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.futureCard {
+  padding: 3rem 2rem;
+  background: radial-gradient(circle at center, rgba(15, 31, 26, 0.8) 0%, rgba(6, 15, 13, 0.4) 100%);
+  border-color: rgba(232, 121, 42, 0.3);
+}
+
+.futureCard h3 {
+  font-size: 1.75rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.futureCard p {
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.futureCard strong {
+  color: var(--color-accent);
+  font-weight: 600;
+}

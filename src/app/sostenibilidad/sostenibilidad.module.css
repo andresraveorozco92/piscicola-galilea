@@ -1,0 +1,102 @@
+.page {
+  min-height: 100vh;
+}
+
+.header {
+  padding: 6rem 1.5rem 4rem;
+  background: linear-gradient(180deg, rgba(0, 184, 148, 0.1) 0%, var(--color-bg) 100%);
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: var(--color-text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.pillarsSection {
+  position: relative;
+}
+
+.pillarsBg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.pillarsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+@media (min-width: 992px) {
+  .pillarsGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.pillarCard {
+  padding: 3rem;
+}
+
+.socialCard {
+  /* spans full width on desktop via grid-column in the parent grid */
+}
+
+.iconWrapper {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  background: rgba(0, 184, 148, 0.15);
+  color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.pillarTitle {
+  font-size: 1.75rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.pillarCard p {
+  color: var(--color-text-muted);
+  line-height: 1.8;
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}
+
+.pillarCard strong {
+  color: var(--color-text);
+}
+
+.socialList {
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.socialList li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+.socialList li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--color-secondary);
+  font-weight: bold;
+}

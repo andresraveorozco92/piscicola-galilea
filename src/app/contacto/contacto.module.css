@@ -1,0 +1,101 @@
+.page {
+  min-height: 100vh;
+}
+
+.header {
+  padding: 6rem 1.5rem 4rem;
+  background: linear-gradient(180deg, rgba(201, 168, 76, 0.1) 0%, var(--color-bg) 100%);
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: var(--color-text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+}
+
+@media (min-width: 992px) {
+  .grid {
+    grid-template-columns: 1fr 1.2fr;
+  }
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.desc {
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+.contactCards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contactCard {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.contactCard:hover {
+  transform: translateX(10px);
+  border-color: rgba(0, 184, 148, 0.3);
+}
+
+.iconWrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(0, 184, 148, 0.15);
+  color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contactCard h3 {
+  color: var(--color-text);
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.contactCard p {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
+.mapSection {
+  height: 400px;
+  width: 100%;
+  border-top: 1px solid var(--glass-border);
+  filter: grayscale(80%) invert(10%) contrast(1.2); /* Estilo oscuro para el mapa */
+  transition: filter 0.3s ease;
+}
+
+.mapSection:hover {
+  filter: none;
+}

@@ -1,0 +1,113 @@
+.footer {
+  background: var(--color-surface);
+  border-top: 1px solid var(--glass-border);
+  padding-top: 4rem;
+  margin-top: 4rem;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  padding: 0 1.5rem 3rem;
+}
+
+@media (min-width: 768px) {
+  .footerGrid {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+}
+
+.logo {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--color-text);
+  letter-spacing: -0.5px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.logo span {
+  color: var(--color-secondary);
+}
+
+.description {
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  max-width: 400px;
+}
+
+.senaBadge {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 0.75rem 1rem;
+  background: rgba(201, 168, 76, 0.1);
+  border: 1px solid rgba(201, 168, 76, 0.3);
+  border-radius: 8px;
+}
+
+.senaText {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.senaGold {
+  color: var(--color-gold);
+  font-family: var(--font-title);
+  font-weight: 700;
+}
+
+.linksCol h3,
+.contactCol h3 {
+  font-family: var(--font-title);
+  color: var(--color-text);
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.linksCol ul {
+  list-style: none;
+}
+
+.linksCol li {
+  margin-bottom: 0.75rem;
+}
+
+.linksCol a {
+  color: var(--color-text-muted);
+  transition: color 0.2s ease;
+}
+
+.linksCol a:hover {
+  color: var(--color-secondary);
+}
+
+.contactList {
+  list-style: none;
+}
+
+.contactList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  color: var(--color-text-muted);
+}
+
+.icon {
+  color: var(--color-secondary);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.bottomBar {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}

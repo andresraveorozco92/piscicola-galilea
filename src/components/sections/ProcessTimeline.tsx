@@ -1,0 +1,61 @@
+'use client';
+
+import { motion } from 'framer-motion';
+import styles from './ProcessTimeline.module.css';
+
+const steps = [
+  {
+    phase: 'Fase 1',
+    title: 'Recepción y Laboratorio',
+    desc: 'Los alevinos llegan a nuestras instalaciones y pasan por estrictos controles de laboratorio antes de ingresar al sistema productivo.'
+  },
+  {
+    phase: 'Fase 2',
+    title: 'Preceba (0-30 días)',
+    desc: 'Ubicados en 1 estanque de geomembrana de 9 metros de diámetro, se adaptan a la Tecnología Simbiótica BAF.'
+  },
+  {
+    phase: 'Fase 3',
+    title: 'Ceba (30-120 días)',
+    desc: 'Trasladados a 2 estanques de 9 metros de diámetro por módulo, donde alcanzan su peso ideal de cosecha (450 - 550 gr).'
+  },
+  {
+    phase: 'Fase 4',
+    title: 'Cosecha',
+    desc: 'Extracción cuidadosa manteniendo altos estándares de bienestar animal, para garantizar la máxima frescura de la carne.'
+  },
+  {
+    phase: 'Fase 5',
+    title: 'Procesamiento',
+    desc: 'En nuestra sala de procesos se realiza el eviscerado y, según requerimiento, el descamado, bajo rigurosas normas de inocuidad.'
+  },
+  {
+    phase: 'Fase 6',
+    title: 'Empaque y Entrega',
+    desc: 'La tilapia se entrega entera fresca o empacada al vacío (bolsas de 2 unidades) a nuestros clientes mayoristas.'
+  }
+];
+
+export default function ProcessTimeline() {
+  return (
+    <div className={styles.timeline}>
+      {steps.map((step, index) => (
+        <motion.div
+          key={index}
+          initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+          className={styles.timelineItem}
+        >
+          <div className={styles.timelineContent}>
+            <div className={styles.phase}>{step.phase}</div>
+            <h3 className={styles.title}>{step.title}</h3>
+            <p className={styles.desc}>{step.desc}</p>
+          </div>
+          <div className={styles.timelineDot}></div>
+        </motion.div>
+      ))}
+    </div>
+  );
+}

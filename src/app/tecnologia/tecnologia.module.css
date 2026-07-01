@@ -1,0 +1,145 @@
+.page {
+  min-height: 100vh;
+}
+
+.header {
+  padding: 6rem 1.5rem 4rem;
+  background: linear-gradient(180deg, rgba(0, 184, 148, 0.1) 0%, var(--color-bg) 100%);
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: var(--color-text-muted);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.dataSection {
+  position: relative;
+  background: radial-gradient(circle at top center, rgba(15, 31, 26, 0.8) 0%, var(--color-bg) 100%);
+}
+
+.dataBg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.techSplit {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+}
+
+@media (min-width: 992px) {
+  .techSplit {
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+  }
+}
+
+.techImageWrapper {
+  position: relative;
+  height: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid var(--glass-border);
+}
+
+.techImageOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(6, 15, 13, 0.3) 0%, transparent 100%);
+}
+
+.techContent {
+  min-height: 400px;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .statsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.statCard {
+  padding: 2.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.statCard:hover {
+  transform: translateY(-5px);
+  border-color: rgba(0, 184, 148, 0.3);
+}
+
+.statNumber {
+  font-family: var(--font-stats);
+  font-size: 4rem;
+  color: var(--color-secondary);
+  line-height: 1;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 20px rgba(0, 184, 148, 0.4);
+}
+
+.statCard h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+}
+
+.statCard p {
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+.microCard {
+  padding: 3rem;
+  background: linear-gradient(135deg, rgba(15, 31, 26, 0.8) 0%, rgba(13, 110, 79, 0.2) 100%);
+  border-color: rgba(13, 110, 79, 0.4);
+}
+
+.microGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .microGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.microTitle {
+  font-family: var(--font-title);
+  color: var(--color-secondary);
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.microGrid p {
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
