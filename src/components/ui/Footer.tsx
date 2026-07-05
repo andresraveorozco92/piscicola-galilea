@@ -35,7 +35,7 @@ export default function Footer() {
           <ul className={styles.contactList}>
             <li>
               <MapPin size={18} className={styles.icon} />
-              <span>El Retorno, Guaviare, Colombia</span>
+              <span>Vereda El Danubio, El Retorno, Guaviare</span>
             </li>
             <li>
               <Phone size={18} className={styles.icon} />

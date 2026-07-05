@@ -30,7 +30,7 @@ export default function ContactoPage() {
                   </div>
                   <div>
                     <h3>Ubicación</h3>
-                    <p>El Retorno, Guaviare, Colombia</p>
+                    <p>Vereda El Danubio, El Retorno, Guaviare</p>
                   </div>
                 </div>
 

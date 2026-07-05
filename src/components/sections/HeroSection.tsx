@@ -15,9 +15,8 @@ export default function HeroSection() {
           transition={{ duration: 0.8 }}
           className={styles.textContent}
         >
-          <div className={styles.badge}>Proyecto Fondo Emprender SENA</div>
           <h1 className={styles.title}>
-            Tilapia Roja del <span className="text-gradient">Guaviare</span>
+            Estación piscícola para la producción de Tilapia Roja del <span className="text-gradient">Guaviare</span>
           </h1>
           <p className={styles.subtitle}>
             Desde la selva amazónica a su mesa. Producción sostenible y tecnificada mediante Tecnología Simbiótica BAF.
