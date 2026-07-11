@@ -6,18 +6,18 @@ import styles from './ProcessTimeline.module.css';
 const steps = [
   {
     phase: 'Fase 1',
-    title: 'Recepción y Laboratorio',
-    desc: 'Los alevinos llegan a nuestras instalaciones y pasan por estrictos controles de laboratorio antes de ingresar al sistema productivo.'
+    title: 'Recepción de alevinos',
+    desc: 'Los alevinos llegan a nuestras instalaciones y se someten a un proceso de adaptación a su nuevo entorno.'
   },
   {
     phase: 'Fase 2',
-    title: 'Preceba (0-30 días)',
+    title: 'Iniciación (0-30 días)',
     desc: 'Ubicados en 1 estanque de geomembrana de 9 metros de diámetro, se adaptan a la Tecnología Simbiótica BAF.'
   },
   {
     phase: 'Fase 3',
-    title: 'Ceba (30-120 días)',
-    desc: 'Trasladados a 2 estanques de 9 metros de diámetro por módulo, donde alcanzan su peso ideal de cosecha (450 - 550 gr).'
+    title: 'Ceba (30-150 días)',
+    desc: 'Trasladados a 2 estanques de 13 metros de diámetro por módulo, donde alcanzan su peso ideal de cosecha (450 - 550 gr).'
   },
   {
     phase: 'Fase 4',
