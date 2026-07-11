@@ -40,8 +40,8 @@ export default function NosotrosPage() {
               </p>
               <p>
                 El nombre de la empresa, rinde homenaje a la región histórica 
-                donde Jesús desarrolló gran parte de su ministerio, en donde además, llamó a sus primeros discípulos y los transformó en "pescadores de hombres", y este proyecto nace con la vocación de multiplicar los frutos, transformar nuestro entorno y 
-                consolidar unidad familiar a través del trabajo, la constancia y la actividad acuícola.
+                donde Jesús desarrolló gran parte de su ministerio, en donde además, llamó a sus primeros discípulos y los transformó en <strong>"pescadores de hombres"</strong>, y este proyecto nace con la vocación de multiplicar los frutos, transformar nuestro entorno y 
+                consolidar <strong>unidad familiar</strong> a través del trabajo, la constancia y la actividad acuícola.
               </p>
 
               <h2 className={styles.sectionTitle} style={{ marginTop: '3rem' }}>El Guaviare: Tierra de Posibilidades</h2>
