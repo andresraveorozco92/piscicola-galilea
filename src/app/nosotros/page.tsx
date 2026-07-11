@@ -36,7 +36,9 @@ export default function NosotrosPage() {
               <p>
                 Piscícola Galilea nació en el corazón de la Amazonía colombiana como una apuesta por la <strong>producción acuícola tecnificada, sostenible y de alto impacto social</strong>. 
                 El proyecto se origina en la <strong>Vereda El Danubio</strong>, municipio de <strong>El Retorno</strong>, en el departamento del <strong>Guaviare</strong>, 
-                un territorio que lleva décadas construyendo su identidad entre la selva amazónica y la esperanza de sus comunidades.
+                un territorio que lleva décadas construyendo su identidad entre la selva amazónica y la esperanza de sus comunidades.El nombre de la empresa, rinde homenaje a la región histórica 
+                donde Jesús desarrolló gran parte de su ministerio, en donde además, llamó a sus primeros discípulos y los transformó en "pescadores de hombres", y este proyecto nace con la vocación de multiplicar los frutos, transformar nuestro entorno y 
+                consolidar unidad familiar a través del trabajo, la constancia y la actividad acuícola.
               </p>
 
               <h2 className={styles.sectionTitle} style={{ marginTop: '3rem' }}>El Guaviare: Tierra de Posibilidades</h2>
