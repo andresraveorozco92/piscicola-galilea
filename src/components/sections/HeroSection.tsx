@@ -17,8 +17,8 @@ export default function HeroSection() {
         >
           <h1 className={styles.title}>
             Estación piscícola Galilea 
-            </p>
-            <p>
+          </p>
+          <p>
             Producción de Tilapia Roja del <span className="text-gradient">Guaviare</span>
           </h1>
           <p className={styles.subtitle}>
