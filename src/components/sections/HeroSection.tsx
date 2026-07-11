@@ -16,9 +16,7 @@ export default function HeroSection() {
           className={styles.textContent}
         >
           <h1 className={styles.title}>
-            Estación piscícola Galilea</span>
-          <h1 className={styles.title}>
-            Producción de Tilapia Roja del <span className="text-gradient">Guaviare</span>
+            Estación piscícola Galilea Producción de Tilapia Roja del <span className="text-gradient">Guaviare</span>
           </h1>
           <p className={styles.subtitle}>
             Desde la selva amazónica a su mesa. Producción sostenible y tecnificada mediante Tecnología Simbiótica BAF.
