@@ -42,21 +42,62 @@
   }
 }
 
-.timelineContent {
+.timelineCard {
   width: 100%;
   background: var(--glass-bg);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--glass-border);
-  padding: 2rem;
   border-radius: 16px;
   position: relative;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .timelineCard {
+    width: 45%;
+    flex-direction: row;
+    align-items: stretch;
+  }
+  
+  .timelineItem:nth-child(even) .timelineCard {
+    flex-direction: row-reverse;
+  }
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .imageContainer {
+    width: 40%;
+    height: auto;
+    min-height: 250px;
+  }
+}
+
+.phaseImage {
+  object-fit: cover;
+}
+
+.timelineContent {
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
   .timelineContent {
-    width: 45%;
+    width: 60%;
   }
 }
 
