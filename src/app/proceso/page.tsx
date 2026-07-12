@@ -53,14 +53,14 @@ export default function ProcesoPage() {
               </div>
               <div className={`glass-panel ${styles.facilityCard}`}>
                 <h3>Sala de Procesos</h3>
-                <p>Eviscerado, descamado y empaque al vacío con normas INVIMA.</p>
+                <p>Aréa climatizada para el eviscerado, descamado y empaque al vacío con normas INVIMA.</p>
               </div>
               <div className={`glass-panel ${styles.facilityCard}`}>
                 <h3>Bodegas</h3>
-                <p>Almacenamiento climatizado de equipos y alimentos.</p>
+                <p>Almacenamiento adecuado de equipos y alimentos.</p>
               </div>
               <div className={`glass-panel ${styles.facilityCard}`}>
-                <h3>Energía Solar</h3>
+                <h3>Parque Solar</h3>
                 <p>Transición energética para una producción verde.</p>
               </div>
             </div>
