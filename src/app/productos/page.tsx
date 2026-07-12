@@ -26,7 +26,7 @@ export default function ProductosPage() {
       features: [
         'Producida con Energía Solar y Tecnología Simbiótica',
         'Mayor vida útil sin conservantes',
-        'Práctica presentación para retail o canal HORECA',
+        'Práctica presentación para distribución al por mayor o al detal',
         'Procesada bajo normas de inocuidad INVIMA'
       ]
     }
