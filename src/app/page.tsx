@@ -21,34 +21,34 @@ export default function Home() {
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', padding: '0 1.5rem' }}>
             {/* Card 1 */}
-            <div className="glass-panel" style={{ padding: '2.5rem' }}>
+            <div className="glass-panel" style={{ padding: '2.5rem', display: 'flex', flexDirection: 'column' }}>
               <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'var(--color-secondary)' }}>Tecnología BAF</h3>
-              <p style={{ color: 'var(--color-text-muted)', marginBottom: '2rem', lineHeight: '1.6' }}>
+              <p style={{ color: 'var(--color-text-muted)', marginBottom: '2rem', lineHeight: '1.6', flexGrow: 1 }}>
                 Utilizamos el sistema Bioaquafloc, que aprovecha microorganismos benéficos para purificar el agua y alimentar a los peces, eliminando la necesidad de recambios de agua.
               </p>
-              <Link href="/tecnologia" className="btn btn-outline" style={{ width: '100%' }}>
+              <Link href="/tecnologia" className="btn btn-outline" style={{ width: '100%', marginTop: 'auto' }}>
                 Descubrir más
               </Link>
             </div>
 
             {/* Card 2 */}
-            <div className="glass-panel" style={{ padding: '2.5rem' }}>
+            <div className="glass-panel" style={{ padding: '2.5rem', display: 'flex', flexDirection: 'column' }}>
               <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'var(--color-accent)' }}>Nuestros Productos</h3>
-              <p style={{ color: 'var(--color-text-muted)', marginBottom: '2rem', lineHeight: '1.6' }}>
+              <p style={{ color: 'var(--color-text-muted)', marginBottom: '2rem', lineHeight: '1.6', flexGrow: 1 }}>
                 Tilapia Roja fresca y eviscerada o empacada al vacío. Tamaños uniformes de 450 a 550 gr ideales para clientes mayoristas y distribuidores.
               </p>
-              <Link href="/productos" className="btn btn-outline" style={{ width: '100%', borderColor: 'var(--color-accent)', color: 'var(--color-accent)' }}>
+              <Link href="/productos" className="btn btn-outline" style={{ width: '100%', borderColor: 'var(--color-accent)', color: 'var(--color-accent)', marginTop: 'auto' }}>
                 Ver catálogo
               </Link>
             </div>
 
             {/* Card 3 */}
-            <div className="glass-panel" style={{ padding: '2.5rem' }}>
+            <div className="glass-panel" style={{ padding: '2.5rem', display: 'flex', flexDirection: 'column' }}>
               <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'var(--color-text)' }}>Sostenibilidad Integral</h3>
-              <p style={{ color: 'var(--color-text-muted)', marginBottom: '2rem', lineHeight: '1.6' }}>
-                Comprometidos con el medio ambiente y la comunidad: uso de energía solar, recambios de agua y vertimientos minimos e impacto social positivo en El Retorno, Guaviare.
+              <p style={{ color: 'var(--color-text-muted)', marginBottom: '2rem', lineHeight: '1.6', flexGrow: 1 }}>
+                Comprometidos con el medio ambiente y la comunidad: uso de energía solar, recambios de agua y vertimientos mínimos e impacto social positivo en El Retorno, Guaviare.
               </p>
-              <Link href="/sostenibilidad" className="btn btn-outline" style={{ width: '100%', borderColor: 'var(--color-text)', color: 'var(--color-text)' }}>
+              <Link href="/sostenibilidad" className="btn btn-outline" style={{ width: '100%', borderColor: 'var(--color-text)', color: 'var(--color-text)', marginTop: 'auto' }}>
                 Nuestro compromiso
               </Link>
             </div>
