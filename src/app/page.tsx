@@ -46,7 +46,7 @@ export default function Home() {
             <div className="glass-panel" style={{ padding: '2.5rem' }}>
               <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'var(--color-text)' }}>Sostenibilidad Integral</h3>
               <p style={{ color: 'var(--color-text-muted)', marginBottom: '2rem', lineHeight: '1.6' }}>
-                Comprometidos con el medio ambiente y la comunidad: uso de energía solar, cero vertimientos e impacto social positivo en El Retorno, Guaviare.
+                Comprometidos con el medio ambiente y la comunidad: uso de energía solar, recambios de agua y vertimientos minimos e impacto social positivo en El Retorno, Guaviare.
               </p>
               <Link href="/sostenibilidad" className="btn btn-outline" style={{ width: '100%', borderColor: 'var(--color-text)', color: 'var(--color-text)' }}>
                 Nuestro compromiso
