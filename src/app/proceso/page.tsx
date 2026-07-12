@@ -34,10 +34,11 @@ export default function ProcesoPage() {
             <div className={styles.infraText}>
               <h2 className={styles.sectionTitle}>Nuestra Infraestructura</h2>
               <p>
-                Piscícola Galilea cuenta con instalaciones de vanguardia en El Retorno, Guaviare. El sistema está conformado por <strong>4 módulos de producción</strong>.
+                Piscícola Galilea cuenta con instalaciones de vanguardia en El Retorno, Guaviare. El sistema está conformado por <strong>5 módulos de producción</strong>.
               </p>
               <ul className={styles.infraList}>
-                <li><strong>12 estanques en geomembrana</strong>: 3 estanques por módulo (1 de preceba y 2 de ceba de 9m de diámetro).</li>
+                <li><strong>10 estanques en geomembrana</strong>: 2 estanques por módulo para la ceba de 13 m de diámetro.</li>
+                <li><strong>2 estanques en geomembrana</strong>: Estanques para la iniciación de 9 m de diámetro.</li>
                 <li><strong>Aireadores y Mangueras Polidifusoras</strong>: Oxigenación profusa que elimina el recambio de agua.</li>
                 <li><strong>Sistemas Hidráulicos</strong>: Control preciso de entrada y salida de agua.</li>
                 <li><strong>Generación Energética Híbrida</strong>: Red pública + paneles solares + generador diésel de respaldo.</li>
