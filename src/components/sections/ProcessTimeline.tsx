@@ -39,7 +39,7 @@ const steps = [
     phase: 'Fase 6',
     title: 'Empaque y Entrega',
     desc: 'La tilapia se entrega entera fresca o empacada al vacío (bolsas de 2 unidades) a nuestros clientes mayoristas.',
-    imageSrc: '/images/fase6.png',
+    imageSrc: '/images/tilapia_vacio_clean.png',
     showLogoOnImage: true
   }
 ];
