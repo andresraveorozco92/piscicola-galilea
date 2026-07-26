@@ -12,8 +12,8 @@ export default function Footer() {
             <Image 
               src="/images/logo_oficial.png" 
               alt="Piscícola Galilea Logo" 
-              width={150} 
-              height={60} 
+              width={180} 
+              height={180} 
               style={{ objectFit: 'contain' }}
             />
           </Link>
