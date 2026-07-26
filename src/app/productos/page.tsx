@@ -28,7 +28,8 @@ export default function ProductosPage() {
         'Mayor vida útil sin conservantes',
         'Práctica presentación para distribución al por mayor o al detal',
         'Procesada bajo normas de inocuidad INVIMA'
-      ]
+      ],
+      showLogoOnImage: true
     }
   ];
 
@@ -54,6 +55,7 @@ export default function ProductosPage() {
                 imageSrc={prod.imageSrc}
                 imageAlt={prod.imageAlt}
                 delay={index * 0.2}
+                showLogoOnImage={prod.showLogoOnImage}
               />
             ))}
           </div>

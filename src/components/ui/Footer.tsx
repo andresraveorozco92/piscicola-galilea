@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './Footer.module.css';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
@@ -8,7 +9,13 @@ export default function Footer() {
       <div className={`container ${styles.footerGrid}`}>
         <div className={styles.brandCol}>
           <Link href="/" className={styles.logo}>
-            Piscícola <span>Galilea</span>
+            <Image 
+              src="/images/logo_oficial.png" 
+              alt="Piscícola Galilea Logo" 
+              width={150} 
+              height={60} 
+              style={{ objectFit: 'contain' }}
+            />
           </Link>
           <p className={styles.description}>
             Producción tecnificada de Tilapia Roja en la Amazonía colombiana con Tecnología Simbiótica BAF. Sostenibilidad, innovación y calidad.

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import styles from './Navbar.module.css';
@@ -24,7 +25,14 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       <div className={`container ${styles.navContainer}`}>
         <Link href="/" className={styles.logo}>
-          Piscícola <span className="text-gradient">Galilea</span>
+          <Image 
+            src="/images/logo_oficial.png" 
+            alt="Piscícola Galilea Logo" 
+            width={120} 
+            height={50} 
+            style={{ objectFit: 'contain' }}
+            priority
+          />
         </Link>
         
         {/* Desktop Menu */}
