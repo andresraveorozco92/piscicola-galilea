@@ -14,10 +14,9 @@ interface ProductCardProps {
   imageSrc: string;
   imageAlt: string;
   delay?: number;
-  showLogoOnImage?: boolean;
 }
 
-export default function ProductCard({ title, subtitle, desc, features, imageSrc, imageAlt, delay = 0, showLogoOnImage = false }: ProductCardProps) {
+export default function ProductCard({ title, subtitle, desc, features, imageSrc, imageAlt, delay = 0 }: ProductCardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -35,17 +34,6 @@ export default function ProductCard({ title, subtitle, desc, features, imageSrc,
           sizes="(max-width: 768px) 100vw, 50vw"
         />
         <div className={styles.imageOverlay} />
-        {showLogoOnImage && (
-          <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: 2, width: '150px', height: '150px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <Image 
-              src="/images/logo_oficial.png" 
-              alt="Logo Galilea Empaque" 
-              width={140} 
-              height={140} 
-              style={{ objectFit: 'contain', filter: 'drop-shadow(0 4px 10px rgba(0,0,0,0.6))' }}
-            />
-          </div>
-        )}
       </div>
       <div className={styles.content}>
         <span className={styles.badge}>Mayorista</span>

@@ -39,8 +39,7 @@ const steps = [
     phase: 'Fase 6',
     title: 'Empaque y Entrega',
     desc: 'La tilapia se entrega entera fresca o empacada al vacío (bolsas de 2 unidades) a nuestros clientes mayoristas.',
-    imageSrc: '/images/tilapia_vacio_clean.png',
-    showLogoOnImage: true
+    imageSrc: '/images/tilapia_vacio_merged.png'
   }
 ];
 
@@ -65,17 +64,6 @@ export default function ProcessTimeline() {
                 className={styles.phaseImage}
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
-              {step.showLogoOnImage && (
-                <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: 2, width: '120px', height: '120px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                  <Image 
-                    src="/images/logo_oficial.png" 
-                    alt="Logo Galilea Empaque" 
-                    width={100} 
-                    height={100} 
-                    style={{ objectFit: 'contain', filter: 'drop-shadow(0 4px 10px rgba(0,0,0,0.6))' }}
-                  />
-                </div>
-              )}
             </div>
             <div className={styles.timelineContent}>
               <div className={styles.phase}>{step.phase}</div>

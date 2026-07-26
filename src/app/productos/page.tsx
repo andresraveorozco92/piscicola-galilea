@@ -21,15 +21,14 @@ export default function ProductosPage() {
       title: 'Tilapia al Vacío',
       subtitle: 'Eviscerada y Descamada · Bolsa x 2',
       desc: 'Nuestra presentación premium lista para distribución. Empacada al vacío para prolongar su vida útil manteniendo intactas sus propiedades organolépticas.',
-      imageSrc: '/images/tilapia_vacio_clean.png',
+      imageSrc: '/images/tilapia_vacio_merged.png',
       imageAlt: 'Tilapia Roja Empacada al Vacío Piscícola Galilea',
       features: [
         'Producida con Energía Solar y Tecnología Simbiótica',
         'Mayor vida útil sin conservantes',
         'Práctica presentación para distribución al por mayor o al detal',
         'Procesada bajo normas de inocuidad INVIMA'
-      ],
-      showLogoOnImage: true
+      ]
     }
   ];
 
@@ -55,7 +54,6 @@ export default function ProductosPage() {
                 imageSrc={prod.imageSrc}
                 imageAlt={prod.imageAlt}
                 delay={index * 0.2}
-                showLogoOnImage={prod.showLogoOnImage}
               />
             ))}
           </div>
