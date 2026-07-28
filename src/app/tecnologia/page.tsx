@@ -54,7 +54,7 @@ export default function TecnologiaPage() {
             <div className={`glass-panel ${styles.statCard}`}>
               <div className={styles.statNumber}>-83%</div>
               <h3>Reducción de Nitritos</h3>
-              <p>Los nitritos tóxicos (NO₂) bajan de 5.32 mg/L a 0.9 mg/L, mejorando dramáticamente la calidad del agua y la salud de los peces.</p>
+              <p>Los nitritos tóxicos (NO₂) bajan de 5.32 mg/L a 0.9 mg/L, mejorando drásticamente la calidad del agua y la salud de los peces.</p>
             </div>
             <div className={`glass-panel ${styles.statCard}`}>
               <div className={styles.statNumber}>-94%</div>
