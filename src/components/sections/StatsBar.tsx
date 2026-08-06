@@ -7,7 +7,7 @@ const stats = [
   { value: '10.000', label: 'Kg mensuales', suffix: '+' },
   { value: '12', label: 'Estanques BAF', suffix: '' },
   { value: '94', label: 'Ahorro de agua', suffix: '%' },
-  { value: '4', label: 'Módulos productivos', suffix: '' },
+  { value: '5', label: 'Módulos productivos', suffix: '' },
 ];
 
 export default function StatsBar() {
